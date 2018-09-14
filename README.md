@@ -8,3 +8,5 @@ HelloLambda.java::handleRequest(S3Event e3event, Context context)
     The imagePath(key) has the house_pic id as well.
     The image text along with house_pic id are  submitted to maaghar webhook to save and index image text in CloudSearch.
     
+
+For deploying Lamdba function to AWS: The jar has to be a fat one bunlding all the dependant jars into it.
