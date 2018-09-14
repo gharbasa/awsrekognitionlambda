@@ -1,0 +1,40 @@
+{
+  "Records": [
+    {
+      "awsRegion": "us-east-2",
+      "eventName": "ObjectCreated:Put",
+      "eventSource": "aws:s3",
+      "eventTime": "2018-09-13T18:31:09.824Z",
+      "eventVersion": "2.0",
+      "requestParameters": {
+        "sourceIPAddress": "18.216.136.133"
+      },
+      "responseElements": {
+        "x-amz-id-2": "iNay6b/7kf1l4wFtwGr/9Mm9SU0as9fjJKrP1dpOtRHUK/qwFdOnfMu8W1ra1xZe2jXF9aLrRjI=",
+        "x-amz-request-id": "8429DDA9C85F129F"
+      },
+      "s3": {
+        "configurationId": "4835b0c7-b0eb-42e0-8938-0adf067d9185",
+        "bucket": {
+          "name": "maaghar",
+          "ownerIdentity": {
+            "principalId": "AK9W27V37CELL"
+          },
+          "arn": "arn:aws:s3:::maaghar"
+        },
+        "object": {
+          "key": "house_pics/pictures/000/000/017/original/Screen_Shot_2018-01-04_at_4.48.33_PM.png",
+          "size": 183812,
+          "eTag": "ebd00976e3aec77d27f3be3938f0c94a",
+          "versionId": "",
+          "sequencer": "005B9AACEDB8C58BAB",
+          "urlDecodedKey": "house_pics/pictures/000/000/017/original/Screen_Shot_2018-01-04_at_4.48.33_PM.png"
+        },
+        "s3SchemaVersion": "1.0"
+      },
+      "userIdentity": {
+        "principalId": "AWS:AIDAJMIGXATGFNWIJOFFO"
+      }
+    }
+  ]
+}
